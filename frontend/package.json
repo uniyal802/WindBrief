@@ -1,0 +1,10 @@
+{
+  "name": "windbrief-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {"dev": "vite --host 0.0.0.0", "build": "tsc -b && vite build"},
+  "dependencies": {"@vitejs/plugin-react": "6.1.2", "vite": "8.3.5", "typescript": "7.0.2", "react": "19.3.1", "react-dom": "19.3.1", "recharts": "3.10.1", "lucide-react": "1.61.0"},
+  "devDependencies": {"@types/react": "19.3.0", "@types/react-dom": "19.3.0"}
+}
