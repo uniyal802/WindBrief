@@ -6,9 +6,9 @@ root = "backend/"
 entrypoint = "main:app"
 
 [[rewrites]]
-source = "/(.*)"
-destination = { service = "web" }
-
-[[rewrites]]
 source = "/api/(.*)"
 destination = { service = "api" }
+
+[[rewrites]]
+source = "/(.*)"
+destination = { service = "web" }
