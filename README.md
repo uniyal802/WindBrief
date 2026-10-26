@@ -42,4 +42,4 @@ At a 10:00 UK cutoff for each January 2026 delivery day, the 1,488 matched half-
 
 The container listens on port 8000 and serves both the API and built frontend. `vercel.toml` also defines the React frontend and FastAPI backend as two services in one Vercel project. Import the repository in Vercel and deploy from the repository root; Vercel routes `/api/*` to FastAPI and other paths to the frontend. Vercel's current Python and full-stack service setup is documented at https://vercel.com/changelog/python-on-vercel-is-now-generally-available.
 
-Public deployment URL: pending Vercel account deployment. Public anonymous GitHub repository: pending repository creation.
+Public deployment URL: pending Vercel deployment. Public anonymous GitHub repository: https://github.com/uniyal802/w6r9k2p1.
