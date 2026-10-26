@@ -1,0 +1,8 @@
+services:
+  windbrief:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ELEXON_BASE_URL=https://data.elexon.co.uk/bmrs/api/v1
+    restart: unless-stopped
